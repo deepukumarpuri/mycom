@@ -42,13 +42,13 @@ async def start(event):
 
 async def help(event):
     await event.reply(
-        "**🐠 A Quality CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options\nMust Be Join My Updates Channel in More New Bot\nUpdate Channel :- @DKBOTZ"
+        "**🐠 A Quality Compressor Bot 🐠**\n\nThis Bot Compress Videos With Negligible Quality Change.\nUse Me To Generate Sample Video And Generate Screenshot\nEasy to Use\nDue to Quality Settings Bot Takes Time To Compress.\n\nSo Be Patience No Send Videos One By One After Completing.\n\nDont Spam in Bot.\n\nJust Forward Video To Get Options.\n\nMust Be Join My Updates Channel in More New Bot\n\n❤️ Update Channel :- @DKBOTZ ❤️"
     )
 
 
 async def ihelp(event):
     await event.edit(
-        "**🐠 A Quality CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Screenshots Too\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options\nMust Be Join My Updates Channel in More New Bot\nUpdate Channel :- @DKBOTZ",
+        "**🐠 A Quality Compressor Bot 🐠**\n\nThis Bot Compress Videos With Negligible Quality Change.\nUse Me To Generate Sample Video And Generate Screenshot\nEasy to Use\nDue to Quality Settings Bot Takes Time To Compress.\n\nSo Be Patience No Send Videos One By One After Completing.\n\nDont Spam in Bot.\n\nJust Forward Video To Get Options.\n\nMust Be Join My Updates Channel in More New Bot\n\n❤️ Update Channel :- @DKBOTZ ❤️",
         buttons=[Button.inline("BACK", data="beck")],
     )
 

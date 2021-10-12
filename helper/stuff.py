@@ -29,7 +29,7 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.\nMust Be Join My Updates Channel in More New Bot\nUpdate Channel :- @DKBOTZ",
+        f"Hi `{ok.user.first_name}`\nI Am Powerful Video Compressor Bot. You Can Use Me To Compress Video And Many More Features. Click on Help To Know More Features. \n\n❤️ Must Be Join My Updates Channel For New Bots :- @DKBOTZ ❤️",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
@@ -56,7 +56,7 @@ async def ihelp(event):
 async def beck(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.edit(
-        f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hi `{ok.user.first_name}`\nI Am Powerful Video Compressor Bot. You Can Use Me To Compress Video And Many More Features. Click on Help To Know More Features. \n\n❤️ Must Be Join My Updates Channel For New Bots :- @DKBOTZ ❤️",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
